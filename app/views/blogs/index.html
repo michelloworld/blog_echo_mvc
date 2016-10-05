@@ -1,0 +1,11 @@
+{{ define "content" }}
+
+  {{ range $key, $val := .blogs }}
+    <h3>
+      <a href="/blog/{{ $val.Id }}">{{ $val.Title }}</a>
+      <a href="/blog/{{ $val.Id }}/edit" class="btn btn-xs btn-success">Edit</a>
+      <a href="/blog/{{ $val.Id }}/delete" class="btn btn-xs btn-danger">Delete</a>
+    </h3>
+  {{ end }}
+
+{{ end }}

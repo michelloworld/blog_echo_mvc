@@ -1,0 +1,40 @@
+{
+  "name": "blog",
+  "authors": [
+    "Mic <kittiphong.mic@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "bootstrap": "~3.3.7"
+  },
+  "install": {
+    "path": {
+      "css": "public/css",
+      "js": "public/js",
+      "eot": "public/fonts",
+      "svg": "public/fonts",
+      "ttf": "public/fonts",
+      "woff": "public/fonts",
+      "woff2": "public/fonts"
+    },
+    "sources": {
+      "jquery": "bower_components/jquery/dist/jquery.min.js",
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.min.css",
+        "bower_components/bootstrap/dist/js/bootstrap.min.js",
+        "bower_components/bootstrap/dist/fonts/*"
+      ]
+    }
+  }
+}
